@@ -23,4 +23,9 @@ _Prose_ involves two types of markdown documents:
 - **Designs** are authoritative over the project's desired state. They capture my ideas and intent through medium to high-level specifications.
 - **Plans** describe actionable phases that take the project from its current state to the desired state.
 
-When you
+And uses two types of agents:
+
+- **Architect** drafts design documents and plans based on your high-level intent and specifications.
+- **Programmer** implements plans. 
+
+When you want to express your idea or intent, submit a new prompt to
