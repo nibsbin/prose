@@ -16,7 +16,7 @@ _Prose_ frameworks facillitates the AI agent's role as the coder and my role as 
 
 _Prose_ is not dogmatic; tailor it for your own style and use cases. Here's a starting point:
 
-## The Workflow
+## The Structure
 
 _Prose_ involves two types of markdown documents:
 
@@ -26,6 +26,14 @@ _Prose_ involves two types of markdown documents:
 And uses two types of agents:
 
 - **Architect** drafts design documents and plans based on your high-level intent and specifications.
-- **Programmer** implements plans. 
+- **Programmer** implements plans in your codebase.
 
-When you want to express your idea or intent, submit a new prompt to
+A fresh project set up for prose might have the following structure:
+
+
+
+## The Workflow
+
+When you want to express your idea or intent:
+
+1. Submit a new prompt to GitHub Copilot using the Architect agent. 
